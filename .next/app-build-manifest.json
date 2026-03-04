@@ -1,0 +1,68 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/app/_not-found/page-b4c74ff42944bf3b.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/css/f0b50aeae14609d9.css",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/layout-34aad21ed22c704f.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/page-62ae12b3d2894b18.js"
+    ],
+    "/contacto/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/contacto/page-bc04043a8822bff4.js"
+    ],
+    "/nosotros/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/nosotros/page-458214b790ad276d.js"
+    ],
+    "/servicios/credito/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/servicios/credito/page-543e33b1e9bb6b94.js"
+    ],
+    "/servicios/multas/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/servicios/multas/page-2ceb10f6e1a16084.js"
+    ],
+    "/servicios/recursos/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-b8abb58f037113a3.js",
+      "static/chunks/173-2e1b10b5fe49dfd2.js",
+      "static/chunks/app/servicios/recursos/page-df1f99871eaf9afe.js"
+    ]
+  }
+}

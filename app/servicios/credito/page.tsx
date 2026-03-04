@@ -67,7 +67,7 @@ export default function CreditoPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/contacto"
+                href="#formulario"
                 className="inline-flex items-center justify-center gap-2 font-semibold text-sm px-8 py-4 rounded-sm transition-all hover:-translate-y-1 hover:shadow-xl text-white"
                 style={{ background: "var(--crimson)" }}
               >
@@ -248,6 +248,31 @@ export default function CreditoPage() {
         </div>
       </section>
 
+      {/* Formulario */}
+      <section id="formulario" className="py-20" style={{ background: "var(--cream)" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="mb-10 text-center">
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase" style={{ color: "var(--gold)" }}>Formulario</span>
+            <h2 className="text-3xl font-bold mt-2" style={{ fontFamily: "'Playfair Display', serif", color: "var(--charcoal)" }}>
+              Mejora tu credit score
+            </h2>
+            <p className="text-sm text-gray-500 mt-3">
+              Completa el formulario y un abogado revisará tu caso sin costo.
+            </p>
+          </div>
+
+          <div className="bg-white border border-gray-100 rounded-sm overflow-hidden">
+            <iframe
+              title="Formulario de recuperación crediticia"
+              src="http://localhost:5678/form-test/2a0c972d-3eee-4cc0-8b0d-a21f43f1a1f2"
+              className="w-full"
+              style={{ height: "900px" }}
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Data protection notice */}
       <section className="py-16" style={{ background: "var(--cream)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
@@ -267,7 +292,7 @@ export default function CreditoPage() {
             Toda la información que compartes con Thronium Legal es tratada bajo estrictas políticas de confidencialidad y en cumplimiento de la Ley Estatutaria 1581 de 2012 de Protección de Datos Personales. Solo utilizamos tu información para gestionar tu caso.
           </p>
           <Link
-            href="/contacto"
+            href="#formulario"
             className="inline-flex items-center gap-2 font-semibold text-sm px-8 py-4 rounded-sm text-white"
             style={{ background: "var(--navy)" }}
           >

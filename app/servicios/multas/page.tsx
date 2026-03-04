@@ -88,7 +88,7 @@ export default function MultasPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/contacto"
+                href="#formulario"
                 className="inline-flex items-center justify-center gap-2 font-semibold text-sm px-8 py-4 rounded-sm transition-all hover:-translate-y-1 hover:shadow-xl text-white"
                 style={{ background: "var(--crimson)" }}
               >
@@ -244,6 +244,31 @@ export default function MultasPage() {
         </div>
       </section>
 
+      {/* Formulario */}
+      <section id="formulario" className="py-20" style={{ background: "var(--cream)" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="mb-10 text-center">
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase" style={{ color: "var(--gold)" }}>Formulario</span>
+            <h2 className="text-3xl font-bold mt-2" style={{ fontFamily: "'Playfair Display', serif", color: "var(--charcoal)" }}>
+              Revisión de multas
+            </h2>
+            <p className="text-sm text-gray-500 mt-3">
+              Envíanos tu información y revisamos la viabilidad jurídica de tu caso.
+            </p>
+          </div>
+
+          <div className="bg-white border border-gray-100 rounded-sm overflow-hidden">
+            <iframe
+              title="Formulario de eliminación de multas"
+              src="http://localhost:5678/form-test/0a1dbd36-91f0-4ec0-8e4c-3361e1801f06"
+              className="w-full"
+              style={{ height: "900px" }}
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20" style={{ background: "var(--cream)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -265,7 +290,7 @@ export default function MultasPage() {
 
           <div className="text-center mt-10">
             <Link
-              href="/contacto"
+              href="#formulario"
               className="inline-flex items-center gap-2 font-semibold text-sm px-8 py-4 rounded-sm text-white transition-all hover:-translate-y-0.5"
               style={{ background: "var(--crimson)" }}
             >
